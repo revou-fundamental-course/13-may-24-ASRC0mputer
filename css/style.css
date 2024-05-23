@@ -50,3 +50,11 @@ form>button{
     background-color: orange;
     color: white;
 }
+
+footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    font-size: smaller;
+    font-style: italic;
+}
