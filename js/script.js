@@ -14,6 +14,7 @@ function hideOrShow(){
 }
 
 console.log ('Test Hitung')
+//hitung luas segitiga
 function luas() {
     let alas = document.getElementById("alas").value;
     let tinggi = document.getElementById("tinggi").value;
@@ -26,6 +27,7 @@ function luas() {
     }
 }
 
+//hitung keliling 
 function keliling() {
     let sisi_a = document.getElementById("sisi_a").value;
     let sisi_b = document.getElementById("sisi_b").value;
@@ -39,3 +41,19 @@ function keliling() {
     }
 }
 
+//reset luas
+function resetluas() {
+    document.getElementById("alas").value="";
+    document.getElementById("tinggi").value="";
+    document.getElementById("luas").value="";
+    document.getElementById("luas").innerHTML="";
+}
+
+//reset keliling
+function resetkeliling() {
+    document.getElementById("sisi_a").value="";
+    document.getElementById("sisi_b").value="";
+    document.getElementById("sisi_c").value="";
+    document.getElementById("keliling").value="";
+    document.getElementById("keliling").innerHTML="";
+}
